@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>three.js webgl - interactive cubes (gpu)</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	
+	<!--  功能库   -->
+	<script src="js/libs/jquery-3.2.1.min.js"></script>
+	<script src="js/libs/echartsForce.js"></script>
+	<script src="js/libs/typetype.js"></script>
+	<script src="js/libs/three.min.js"></script>
+	<script src="js/libs/OrbitControls.js"></script>
+	<script src="js/libs/tween.min.js"></script>
+	<script src="js/libs/stats.min.js"></script>
+	<div class="info">
+		网络空间态势监视
+	</div>
+	<!--three渲染容器 -->
+	<div id="container"></div>
+	<!--背景 -->
+	<div id="background"></div>
+	<!-- 名称框 -->
+	<p id="abstract">文字文字</p>
+	<!-- 详情框 -->
+	<div id="detail">
+		<textarea>文字文字</textarea>
+	</div>
+	<!-- 图片框 -->
+	<div id="picture">
+		<img src="./pic/金正恩.jpg" alt="金正恩">
+	</div>
+	<!--按钮组-->
+	<div class="btn_list">
+		<button id="main">三层展示</button>
+		<button id="upper">业务层</button>
+		<button id="middle">网络层</button>
+		<button id="bottom">物理层</button>
+		<button id="browse">自动旋转</button>
+	</div>
+	<!-- 函数脚本-->
+	<!--<script src="js/func.js"></script>-->
+	<script src="js/init.js"></script>
+	<!--<script src="js/animation.js"></script>-->
+</body>
+
+</html>
